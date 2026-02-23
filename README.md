@@ -1,2 +1,11 @@
-# FUTURE_CS_01
-🛡️ Cyber Security Internship | Task 01  🔍 Vulnerability Assessment project for Future Interns. I used Nmap on Linux to identify network security weaknesses and suggest fixe,💻 Tech: Linux, Nmap, Security Reporting 🎓 ID: FIT/FEB26/CS6436 🚀 Strengthening digital defenses! 
+# Task 1: Vulnerability Assessment
+**Intern Name:** YABSIRA MARKOS
+**ID:** FIT/FEB26/CS6436
+**Domain:** Cyber Security
+
+## Project Overview
+This project focuses on identifying security vulnerabilities in a target system using industry-standard tools like Nmap.
+
+## Tools Used
+- Nmap (Network Mapper)
+- Linux (ChromeOS Environment)
