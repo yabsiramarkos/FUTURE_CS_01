@@ -1,0 +1,44 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2026-02-27 06:11 EAT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.0037s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 974 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE         VERSION
+7/tcp     filtered echo
+22/tcp    filtered ssh
+53/tcp    open     domain?
+80/tcp    open     http            Apache httpd 2.4.7 ((Ubuntu))
+161/tcp   filtered snmp
+500/tcp   filtered isakmp
+587/tcp   filtered submission
+993/tcp   filtered imaps
+1863/tcp  filtered msnp
+3283/tcp  filtered netassistant
+5000/tcp  filtered upnp
+5050/tcp  filtered mmcc
+5222/tcp  filtered xmpp-client
+5432/tcp  filtered postgresql
+6006/tcp  filtered X11:6
+7070/tcp  filtered realserver
+8000/tcp  filtered http-alt
+8082/tcp  filtered blackice-alerts
+8090/tcp  filtered opsmessaging
+8181/tcp  filtered intermapper
+9080/tcp  filtered glrpc
+9090/tcp  filtered zeus-admin
+9666/tcp  filtered zoomcp
+50001/tcp filtered unknown
+50002/tcp filtered iiimsf
+50636/tcp filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.93%I=7%D=2/27%Time=69A10B74%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,E,"\0\x0c\0\0\x80\x01\0\0\0\0\0\0\0\0")%r(DNSStatusReq
+SF:uestTCP,E,"\0\x0c\0\0\x80\x01\0\0\0\0\0\0\0\0")%r(Kerberos,1C,"\0\x0c\0
+SF:\0\x80\x01\0\0\0\0\0\0\0\0\0\x0c\0\0\x80\x01\0\0\0\0\0\0\0\0")%r(SMBPro
+SF:gNeg,1C,"\0\x0c\0\0\x80\x01\0\0\0\0\0\0\0\0\0\x0c\0\0\x80\x01\0\0\0\0\0
+SF:\0\0\0")%r(afp,38,"\0\x0c\0\0\x80\x01\0\0\0\0\0\0\0\0\0\x0c\0\0\x80\x01
+SF:\0\0\0\0\0\0\0\0\0\x0c\0\0\x80\x01\0\0\0\0\0\0\0\0\0\x0c\0\0\x80\x01\0\
+SF:0\0\0\0\0\0\0");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 163.20 seconds
